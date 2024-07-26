@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>strange world</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Multiple Columns</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+            gap: 20px; /* Gap between columns */
+            justify-items: center; /* Center content horizontally */
+        }
+        
+        /* Styling for each column */
+        .column {
+            position: relative; /* Position relative for containing image and text */
+            overflow: hidden; /* Hide overflowing content */
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Center text */
+        }
+
+        /* Image styling */
+        .column img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        /* Text overlay */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(8, 1, 4, 0.9); /* Overlay background color with transparency */
+            color: white;
+            padding: 20px;
+            opacity: 0;
+            transition: opacity 0.1 ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Show overlay on hover */
+        .column:hover .overlay {
+            opacity: 100%;
+        }
+
+        /* Heading style */
+        .overlay h2 {
+            margin-top: 0;
+        }
+        .footer {
+      padding: 3px;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(0, 0, 0);
+   color: rgb(254, 250, 250);
+   text-align: center;
+    }
+   .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            font-size: 24px;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #ffc300;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+
+
+
+<div class="column">
+  <h2>HD 17156 b</h2>
+  <p>Discovered 2007</p>
+    <div class="overlay">
+       
+        <div class="text"><p style="font-size:26px;font-family: 'Times New Roman', Times, serif;">HD 17156 b</p><p style="font-size:24px;color:grey">Discovered 2007</p><br>
+          
+         <b> A giant planet composed mostly of gas. Also given the name Mulchatna, for a river in Alaska that supports indigenous and native populations.</b></div>
+    </div>
+    <img src="hdb.avif"alt="Avatar">
+</div>
+
+<div class="column">
+   <h2>KEPLER-16b</h2>
+  <p>Discovered 2011</p>
+    <div class="overlay">
+        
+        <div class="text"><p style="font-size:26px;font-family: 'Times New Roman', Times, serif;">KEPLER-16b</p><p style="font-size:24px;color:grey">Discovered 2011<br></p>
+          <b>Kepler-16b is a world where two suns set over the horizon instead of just one, the first Tatooine-like planet found in our galaxy.</b>
+
+          </div>
+    </div>
+    <img src="kepler16.jpg" alt="Avatar" >
+</div>
+
+<div class="column">
+  <h2>WASP-12 b</h2>
+  <p>Discovered 2008</p>
+    <div class="overlay">
+        
+        <div class="text"><p style="font-size:26px;font-family: 'Times New Roman', Times, serif;">WASP-12 b<p  style="font-size:24px;color:grey">Discovered 2008<br></p>
+          
+          <b>The doomed planet WASP-12b is a hot Jupiter that orbits so close to its parent star, it's being torn apart. It takes this alien world only 1.1 days to completely circle its sun.
+        </b></div>
+    </div>
+    <img src="wasp12b.png" alt="Avatar">
+</div>
+
+<div class="column">
+  <h2>WASP-96 b</h2>
+  <p>Discovered 2014</p>
+    <div class="overlay">
+        
+        <div class="text"><p style="font-size:26px;font-family: 'Times New Roman', Times, serif;">WASP-96 b</p><p style="font-size:26px;font-family: 'Times New Roman', Times, serif;"><p <p style="font-size:24px;color:grey">Discovered 2014<br></p>
+      
+          <b>An international team found that WASP-96b is a world with a sodium rich atmosphere. The planet, located nearly 1,150 light-years from Earth, orbits its star every 3.4 days. It has about half the mass of Jupiter, and its discovery was announced in 2014.</b></div>
+    </div>
+    <img src="wasp96.webp" alt="Avatar">
+</div>
+
+<div class="column">
+<h2>KEPLER-22 b</h2>
+  <p>Discovered 2011</p>
+    <div class="overlay">
+       
+        <div class="text"><p style="font-size:26px;font-family: 'Times New Roman', Times, serif;">KEPLE-22 b</p><p <p style="font-size:24px;color:grey">Discovered 2011<br></p>
+      
+         <b> A possible ocean world orbiting in the habitable zone—the region around a star where the temperature is right for liquid water, a requirement for life on Earth.
+          </b>
+         </div>
+    </div>
+    <img src="kepler22.webp" alt="Avatar">
+</div>
+
+<div class="column">
+ <h2>GJ 1132 b</h2>
+  <p>Discovered 2015</p>
+    <div class="overlay">
+        
+        <div class="text"><p style="font-size:26px;font-family: 'Times New Roman', Times, serif;">GJ 1132 b</p><p <p style="font-size:24px;color:grey">Discovered 2015<br></p>
+        
+        <b >GJ 1132 b may have begun as a mini-Neptune, but is now a rocky world a little bigger than Earth. The planet may have lost one atmosphere but gained another from volcanic activity.</b>
+      </div>
+    </div>
+    <img src="gjb.webp" alt="Avatar">
+</div>
+<div class="column">
+  <h2>TOI-3757 b</h2>
+  <p>Discovered 2022</p>
+    <div class="overlay">
+        
+        <div class="text"><p style="font-size:26px;font-family: 'Times New Roman', Times, serif;">TOI-3757</p><p style="font-size:24px;color:grey">Discovered 2022<br></p>
+        
+        <b>A gas giant exoplanet with the density of a marshmallow has been detected in orbit around a cool red dwarf .</b>
+      </div>
+    </div>
+    <img src="toi.jpg" alt="Avatar">
+</div>
+<div class="column">
+  <h2>TIC 172900988 b</h2>
+  <p>Discovered 2021</p>
+    <div class="overlay">
+        
+        <div class="text"><p style="font-size:26px;font-family: 'Times New Roman', Times, serif;">TIC 172900988</p><p style="font-size:24px;color:grey">Discovered 2021<br></p>
+          
+          <b>A newly discovered planet about as big around as Jupiter belongs to a system that’s a stunner. The planet orbits two stars and, viewed from Earth, crosses the faces of both. That means this system puts on quite a show!</b>
+        </div>
+    </div>
+    <img src="tic.jpg" alt="Avatar">
+</div>
+<br>
+<center><a href="5_ways1.html"><button type="button" class="btn-lg btn btn-primary">Back</button></a></center>
+<br><br><br><br><br>
+<div class="footer">
+  <p>&copy; Explore your space knowledge through mails | Space planetoriam ,
+    24 Nehru street,chennai-600002     | Email: space@gmail.com</p>
+  <div class="social-icons">
+    <a href="#"><i class="fab fa-whatsapp"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+</div>
+</div>
+
+
+</body>
+</html>
