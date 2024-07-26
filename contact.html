@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+<style>
+* {
+  box-sizing: border-box;
+}
+img {
+  border-radius: 50%;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #bebebe;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color:rgb(0, 213, 255);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+.right {
+  right: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            color: #000000;
+            font-size: 24px;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #00b7ff;
+        }
+</style>
+</head>
+<body>
+    <div class="split left">
+        <div class="centered">
+<h1 style="color:aliceblue;">Get in touch</h1>
+<p style="color:aliceblue;">Please complete the form below. Once received, someone will 
+    be in contact with you shortly.
+
+</p>
+<div class="container">
+  <form action="/action_page.html">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">India</option>
+        <option value="usa">USA</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Address</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px">
+    </textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+</div>
+</div>
+<div class="split right">
+<div class="centered">
+    <img src="telephone.jpg" alt="CONTACT" style="width:250px">
+    <h1>Customer Support</h1>
+    <p>
+Many common issues are addressed in our website.
+If your issue is still not addressed, please send an email to </p><p style="color:rgb(0, 213, 255)">
+    xyzsupport@gmail.com.</p>
+<h3>Address</h3>
+<pre>
+Space planetoriam ,
+24 Nehru street,chennai-600002
+<div class="social-icons">
+  <a href="#"><i class="fab fa-twitter"></i></a>
+</div>
+Twitter id:twitterxyz.com
+Email: info@xyz.org<br>
+<a href="index.html"><button type="button"class="btn btn-primary btn-lg">BACK</button></a>
+</pre>
+</div>
+</div>
+
+</body>
+</html>

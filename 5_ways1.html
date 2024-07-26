@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>5 ways to find a planet</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1300px;
+  max-height: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #6978e9;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #070707;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block:hover {
+  background-color: #3e4140c1;
+  color: black;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(111, 107, 107);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+</style>
+</head>
+<body>
+  
+  
+    <div class="container">
+      <div class="navbar">
+        <a href="index.html">INTO THE CELESTIAL WORLD</a>
+   
+       
+          <a href="gloassary.html">GLOSSARY</a>
+          <a href="contact.html">CONTACT US</a>
+          <a href="FAQ.html">FAQ?</a>
+          <a href="signup.html">SIGN UP</a>
+          <a href="register.html">LOGIN</a>
+          <div class="dropdown">
+            <button class="dropbtn">EXPLORE
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="Discovery.html">Discoveries</a>
+              <a href="5_ways.html">5 Ways To Find A Planet</a>
+              <a href="solar system.html">Solar System</a>
+              <a href="strange_world.html">Strange New Worlds</a>
+              <a href="Galaxies.html">Galaxies</a>
+              
+  
+            </div>
+
+
+        </div> 
+      </div>
+    
+        <center><h1>5 Ways To Find A Planet</h1></center>
+    </div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <video width="100%" height="100%" autoplay muted>
+  <source src="rv.mp4" type="video/mp4">
+  </video>
+  <div class="text" ><b style="font-size:30px;color:white">RADIAL VELOCITY</b><br><br>Watching For Wobble<br><br>
+    <button type="button">1088 planets discovered</button>
+</div>
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <video width="100%" height="100%" autoplay muted>
+    <source src="rv2.mp4" type="video/mp4">
+    </video>
+  <div class="text"><b style="font-size:30px;color:white">TRANSIT</b><br><br>Searching For Shadows<br><br>
+    <button type="button">4168 planets discovered</button></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <video width="100%" height="100%" autoplay muted>
+    <source src="rv3.mp4" type="video/mp4">
+    </video>
+  <div class="text"><b style="font-size:30px;color:white">DIRECT IMAGING</b><br><br>Taking Pictures<br><br>
+    <button type="button">68 planets discovered</button></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <video width="100%" height="100%" autoplay muted>
+    <source src="rv4.mp4" type="video/mp4">
+    </video>
+  <div class="text"><b style="font-size:30px;color:white">GRAVITATIONAL MICROLENSING</b><br><br>Light In a Gravity Lens<br><br>
+    <button type="button">210 planets discovered</button></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <video width="100%" height="100%" autoplay muted>
+    <source src="rv5.mp4" type="video/mp4">
+    </video>
+  <div class="text"><b style="font-size:30px;color:white">ASTROMETRY</b><br><br>Minuscule Movements<br><br>
+    <button type="button">3 planets discovered</button></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+   <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <a href="5_ways.html"><button class="block">BACK</button></a>
+
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+
+</script>
+
+</body>
+</html> 
